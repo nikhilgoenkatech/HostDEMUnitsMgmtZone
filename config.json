@@ -1,0 +1,26 @@
+{
+   "tenant-details":
+   [
+    {
+      "tenant-URL"  : "https://mytenant/e/ecc29184-1ae2-46dd-96fe-06997671fc57/api/v1/",
+      "API-token"   : "Password",
+      "tenant-name" : "Production-tenant"
+    },
+    {
+      "tenant-URL"  : "https://myTenant/e/ecc29184-1ae2-46dd-96fe-06997671fc57/api/v1/",
+      "API-token"   : "Staging-password",
+      "tenant-name" : "Staging-tenant"
+    }
+  ],
+ "email-details":
+ {
+   "username":"abc.abc@company.com",
+   "password":"Password",
+   "server":"smtp_server.com",
+   "port":"smtp_port",
+   "senders-list":"abc.xyz@company.com",
+   "receiver-list":"abc.abc@company.com, xyz.abc@company.com"
+ },
+ "log_file": "weekly_dem_host_unit_consumption.log"
+}
+
