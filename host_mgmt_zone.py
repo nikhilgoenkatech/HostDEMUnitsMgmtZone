@@ -306,7 +306,7 @@ def populate_consumption(logger, app_mgmt_zone, tenant_info, query, syn = 0):
     applications = json.loads(applicationIO)
 
     if syn == 0:
-      apps = applications['metrics']['builtin:billing.apps.web.sessionsByApplication:fold(value)']['values']
+      apps = applications['metrics']['builtin:billing.apps.web.sessionsWithoutReplayByApplication:fold(value)']['values']
     elif syn == 1:
       apps = applications['metrics']['builtin:billing.synthetic.actions:fold(value)']['values']
     elif syn == 2:
